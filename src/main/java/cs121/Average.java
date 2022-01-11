@@ -6,7 +6,7 @@ public class Average {
         int y = 2;
         int z = 4;
         int sum = x + y + z;
-        int average = sum / 3;
-        System.out.println("average = " + average);
+        double average = sum / 3.0;
+        System.out.printf("average = %f", average);
     }
 }
